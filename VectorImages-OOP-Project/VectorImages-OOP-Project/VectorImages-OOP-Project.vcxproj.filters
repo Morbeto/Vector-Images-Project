@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{502ed82c-d5fd-42db-b94e-20b10f8006c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shapes">
+      <UniqueIdentifier>{f4b058d3-8bba-4d66-8e7b-c06071fbad15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{21b13149-1235-43f7-bb9e-70747fe1572c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Serialiser">
+      <UniqueIdentifier>{5a2c6472-1c7c-49fb-818f-6dfd41ed935e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{007817f1-1533-4b68-81ca-0f8be14166ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{6f379971-1f2d-491f-b3da-43921e3a0e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drawer">
+      <UniqueIdentifier>{93159d79-0b73-434a-a56b-64e127270bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serialiser">
+      <UniqueIdentifier>{80e18030-cd35-46ab-b575-29edf1e49f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{048709ea-e541-4a7e-91ea-4a2b9a0ee851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drawer">
+      <UniqueIdentifier>{e39e67cf-3d7c-4b4b-a0b8-4d01f0063668}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VectorImages-OOP-Project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Arc.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeFactory.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer.cpp">
+      <Filter>Source Files\Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcDrawer.cpp">
+      <Filter>Source Files\Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonDrawer.cpp">
+      <Filter>Source Files\Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleDrawer.cpp">
+      <Filter>Source Files\Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentDrawer.cpp">
+      <Filter>Source Files\Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcSerialiser.cpp">
+      <Filter>Source Files\Serialiser</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonSerialiser.cpp">
+      <Filter>Source Files\Serialiser</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleSerialiser.cpp">
+      <Filter>Source Files\Serialiser</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentSerialiser.cpp">
+      <Filter>Source Files\Serialiser</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialiser.cpp">
+      <Filter>Source Files\Serialiser</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Create.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Extract.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Grouping.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Hide.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Insert.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Open.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Print.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Save.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Ungrouping.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Translate.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPrompt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unhide.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyString.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Arc.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeFactory.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcDrawer.h">
+      <Filter>Header Files\Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer.h">
+      <Filter>Header Files\Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonDrawer.h">
+      <Filter>Header Files\Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleDrawer.h">
+      <Filter>Header Files\Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentDrawer.h">
+      <Filter>Header Files\Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeDrawer.h">
+      <Filter>Header Files\Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcSerialiser.h">
+      <Filter>Header Files\Serialiser</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonSerialiser.h">
+      <Filter>Header Files\Serialiser</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleSerialiser.h">
+      <Filter>Header Files\Serialiser</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentSerialiser.h">
+      <Filter>Header Files\Serialiser</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialiser.h">
+      <Filter>Header Files\Serialiser</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeSerialiser.h">
+      <Filter>Header Files\Serialiser</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Create.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Extract.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Grouping.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Hide.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Insert.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Open.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Print.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Save.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Translate.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Ungrouping.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPrompt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unhide.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VectorImages-OOP-Project.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

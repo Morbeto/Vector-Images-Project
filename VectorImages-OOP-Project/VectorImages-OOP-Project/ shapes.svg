@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+<polygon points="30,20 50,90 100,20 " fill="black" stroke="brown" />
+<line x1="2" y1="3" x2="60" y2="60" stroke="red" />
+  <rect x="250" y="300" width="25" height="25" fill="red" stroke="orange" />
+  <rect x="250" y="300" width="20" height="20" fill="pink" stroke="purple" />
+<polygon points="100,100 100,200 200,100 150,50 100,20 " fill="black" stroke="white" />
+<path d="M 293.308 325.011 A 50 50 0 0 1 250.04 300" fill="none" stroke="purple" />
+</svg>
